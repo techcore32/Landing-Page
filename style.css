@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-body{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body {
     font-family: Roboto,sans-serif;
     margin: 0px;
 }
@@ -78,7 +80,7 @@ a {
 
 .hero-header {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 .hero-paragraph {
@@ -119,10 +121,11 @@ button {
 
 .info-header{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 900;
     text-align: center;
     align-self: center;
     flex:1 1 100%;
+    color: hsl(215, 28%, 17%);
 }
 
 
@@ -159,6 +162,26 @@ button {
 
 .testimonial-container {
     display: flex;
-    background-color: #e5e7eb;
+    background-color: hsl(220, 13%, 91%);
     height: 432px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimony-text {
+    max-width: 810px;
+}
+.testimony {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: hsl(215, 28%, 17%);
+    margin-bottom: 8px;
+
+}
+
+.thor {
+    display: flex;
+    font-weight: 700;
+    justify-content: flex-end;
 }
