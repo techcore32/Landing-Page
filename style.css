@@ -256,5 +256,12 @@ button {
 }
 
 .footer-text a{
-
+  font-weight: 400;
 }
+
+@media (hover: hover){
+.footer-text a:hover{
+    font-weight: 700;
+    color: hsl(217, 91%, 59%);
+}
+  }
