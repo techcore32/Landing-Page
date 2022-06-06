@@ -23,6 +23,12 @@ body {
     
 }
 
+.header a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 0px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -52,13 +58,6 @@ ul a {
     height: auto;
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    padding: 8px 0px;
-    
-}
 .header-name {
     font-size: 25px;
     text-transform: uppercase;
@@ -246,10 +245,16 @@ button {
 
 .footer {
     display: flex;
+    flex-direction: column;
     background-color: hsl(215, 28%, 17%);
     color: rgb(249, 250, 247);
     justify-content: center;
     align-items: center;
     height: 95px;
     font-size: 18px;
+    gap: 5px;
+}
+
+.footer-text a{
+
 }
