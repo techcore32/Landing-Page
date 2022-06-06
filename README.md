@@ -9,4 +9,5 @@ Logo found and taken from clker.com. 'https://www.clker.com/clipart-bluered2.htm
 Image found and taken from unsplash. Foto de Illya Pavlov.
 
 Foto de <a href="https://unsplash.com/@ilyapavlov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ilya Pavlov</a> en <a href="https://unsplash.com/es/s/fotos/coding?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+
+Every link, not including personal and attribution, are only there to show the functionality of the links (going somewhere instead of being just for show).
