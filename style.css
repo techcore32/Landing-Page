@@ -268,14 +268,17 @@ button {
     
     .header-container {
         margin-bottom: 40px;
-        
+    }
+
+    .header-name{
+        display: none;
     }
 
     .header a{
         display: flex;
         align-items: center;
         gap: 10px;
-        padding: 8px;
+        padding: 8px 0px;
         margin-top: 15px;
     }
 
@@ -297,6 +300,7 @@ button {
         height: 580px;
         margin-bottom: 15px;
         gap: 0px;
+        text-align: center;
     }
     
     .hero-text {
@@ -309,7 +313,9 @@ button {
     }
     
     .hero-paragraph {
+        margin-left: 18px;
         margin-bottom: 15px ;
+        text-align: left;
     }
 
     .sign-up {
@@ -351,7 +357,7 @@ button {
         align-items: flex-start;
         flex-wrap: wrap;
         column-gap: 54px;
-        height: 500px;
+        height: 550px;
         margin-bottom: 20px;
     }
     
@@ -359,15 +365,17 @@ button {
         text-align: center;
         align-self: center;
         flex:1 1 100%;
+        margin-bottom: 20px;
+        padding: 0px 5px;
     }
     
     .infographs{
-        max-width: 300px;
+        max-width: 100px;
     }
     
     .info-images {
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         margin-bottom: 5px;
     }
     
@@ -381,11 +389,13 @@ button {
     }
     
     .testimony-text {
-        max-width: 810px;
+        max-width: 519px;
+        padding: 0px 15px;
     }
     .testimony {
-        margin-bottom: 8px;
-    
+        margin-bottom: 12px;
+        font-size: 25px;
+        
     }
     
     .thor {
@@ -403,12 +413,25 @@ button {
     
     .call-to-action {
         display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 1024px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        width: 330px;
         height: 153px; 
+        padding: 20px 10px;
     } 
     
+    .action-header {
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+
+    .action-text {
+        font-size: 16px;
+        margin-bottom: 7px;
+        margin-left: 15px;
+    }
     
     .action-sign-up{
         padding: 5px;
