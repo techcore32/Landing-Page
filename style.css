@@ -400,7 +400,6 @@ button {
         .sign-up {
             padding: 5px;
             width: 134px;
-            margin-bottom: 15px;
             
         }
         
@@ -452,12 +451,12 @@ button {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 620px;
+        width: 85%;
     
     }
     .tech-img {
 
-        height: 200px;
+        height: 235px;
         margin: 0px auto;
     }
     
